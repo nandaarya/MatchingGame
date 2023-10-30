@@ -23,7 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         TableLayoutPanel1 = New TableLayoutPanel()
-        Label18 = New Label()
         Label15 = New Label()
         Label14 = New Label()
         Label13 = New Label()
@@ -39,11 +38,8 @@ Partial Class Form1
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
-        TableLayoutPanel2 = New TableLayoutPanel()
         Label16 = New Label()
-        Label17 = New Label()
         TableLayoutPanel1.SuspendLayout()
-        TableLayoutPanel2.SuspendLayout()
         SuspendLayout()
         ' 
         ' TableLayoutPanel1
@@ -51,11 +47,11 @@ Partial Class Form1
         TableLayoutPanel1.BackColor = Color.CornflowerBlue
         TableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset
         TableLayoutPanel1.ColumnCount = 4
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.Controls.Add(Label18, 3, 3)
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25.0F))
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25.0F))
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25.0F))
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25.0F))
+        TableLayoutPanel1.Controls.Add(Label16, 0, 3)
         TableLayoutPanel1.Controls.Add(Label15, 2, 3)
         TableLayoutPanel1.Controls.Add(Label14, 1, 3)
         TableLayoutPanel1.Controls.Add(Label13, 0, 3)
@@ -75,31 +71,20 @@ Partial Class Form1
         TableLayoutPanel1.Location = New Point(0, 0)
         TableLayoutPanel1.Name = "TableLayoutPanel1"
         TableLayoutPanel1.RowCount = 4
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
         TableLayoutPanel1.Size = New Size(532, 503)
         TableLayoutPanel1.TabIndex = 0
-        ' 
-        ' Label18
-        ' 
-        Label18.Dock = DockStyle.Fill
-        Label18.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(401, 377)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(126, 124)
-        Label18.TabIndex = 15
-        Label18.Text = "c"
-        Label18.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label15
         ' 
         Label15.Dock = DockStyle.Fill
-        Label15.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label15.Location = New Point(269, 377)
+        Label15.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label15.Location = New Point(401, 377)
         Label15.Name = "Label15"
-        Label15.Size = New Size(124, 124)
+        Label15.Size = New Size(126, 124)
         Label15.TabIndex = 14
         Label15.Text = "c"
         Label15.TextAlign = ContentAlignment.MiddleCenter
@@ -107,8 +92,8 @@ Partial Class Form1
         ' Label14
         ' 
         Label14.Dock = DockStyle.Fill
-        Label14.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label14.Location = New Point(137, 377)
+        Label14.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label14.Location = New Point(269, 377)
         Label14.Name = "Label14"
         Label14.Size = New Size(124, 124)
         Label14.TabIndex = 13
@@ -118,8 +103,8 @@ Partial Class Form1
         ' Label13
         ' 
         Label13.Dock = DockStyle.Fill
-        Label13.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(5, 377)
+        Label13.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label13.Location = New Point(137, 377)
         Label13.Name = "Label13"
         Label13.Size = New Size(124, 124)
         Label13.TabIndex = 12
@@ -129,7 +114,7 @@ Partial Class Form1
         ' Label12
         ' 
         Label12.Dock = DockStyle.Fill
-        Label12.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label12.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label12.Location = New Point(401, 252)
         Label12.Name = "Label12"
         Label12.Size = New Size(126, 123)
@@ -140,7 +125,7 @@ Partial Class Form1
         ' Label11
         ' 
         Label11.Dock = DockStyle.Fill
-        Label11.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label11.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label11.Location = New Point(269, 252)
         Label11.Name = "Label11"
         Label11.Size = New Size(124, 123)
@@ -151,7 +136,7 @@ Partial Class Form1
         ' Label10
         ' 
         Label10.Dock = DockStyle.Fill
-        Label10.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label10.Location = New Point(137, 252)
         Label10.Name = "Label10"
         Label10.Size = New Size(124, 123)
@@ -162,7 +147,7 @@ Partial Class Form1
         ' Label9
         ' 
         Label9.Dock = DockStyle.Fill
-        Label9.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label9.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label9.Location = New Point(5, 252)
         Label9.Name = "Label9"
         Label9.Size = New Size(124, 123)
@@ -173,7 +158,7 @@ Partial Class Form1
         ' Label8
         ' 
         Label8.Dock = DockStyle.Fill
-        Label8.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label8.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label8.Location = New Point(401, 127)
         Label8.Name = "Label8"
         Label8.Size = New Size(126, 123)
@@ -184,7 +169,7 @@ Partial Class Form1
         ' Label7
         ' 
         Label7.Dock = DockStyle.Fill
-        Label7.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(269, 127)
         Label7.Name = "Label7"
         Label7.Size = New Size(124, 123)
@@ -195,7 +180,7 @@ Partial Class Form1
         ' Label6
         ' 
         Label6.Dock = DockStyle.Fill
-        Label6.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label6.Location = New Point(137, 127)
         Label6.Name = "Label6"
         Label6.Size = New Size(124, 123)
@@ -206,7 +191,7 @@ Partial Class Form1
         ' Label5
         ' 
         Label5.Dock = DockStyle.Fill
-        Label5.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label5.Location = New Point(5, 127)
         Label5.Name = "Label5"
         Label5.Size = New Size(124, 123)
@@ -217,7 +202,7 @@ Partial Class Form1
         ' Label4
         ' 
         Label4.Dock = DockStyle.Fill
-        Label4.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label4.Location = New Point(401, 2)
         Label4.Name = "Label4"
         Label4.Size = New Size(126, 123)
@@ -228,7 +213,7 @@ Partial Class Form1
         ' Label3
         ' 
         Label3.Dock = DockStyle.Fill
-        Label3.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.Location = New Point(269, 2)
         Label3.Name = "Label3"
         Label3.Size = New Size(124, 123)
@@ -239,7 +224,7 @@ Partial Class Form1
         ' Label2
         ' 
         Label2.Dock = DockStyle.Fill
-        Label2.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(137, 2)
         Label2.Name = "Label2"
         Label2.Size = New Size(124, 123)
@@ -250,7 +235,7 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.Dock = DockStyle.Fill
-        Label1.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.Location = New Point(5, 2)
         Label1.Name = "Label1"
         Label1.Size = New Size(124, 123)
@@ -258,60 +243,31 @@ Partial Class Form1
         Label1.Text = "c"
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' TableLayoutPanel2
-        ' 
-        TableLayoutPanel2.BackColor = Color.CornflowerBlue
-        TableLayoutPanel2.CellBorderStyle = TableLayoutPanelCellBorderStyle.Inset
-        TableLayoutPanel2.ColumnCount = 4
-        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
-        TableLayoutPanel2.Controls.Add(Label16, 2, 3)
-        TableLayoutPanel2.Location = New Point(0, 0)
-        TableLayoutPanel2.Name = "TableLayoutPanel2"
-        TableLayoutPanel2.RowCount = 4
-        TableLayoutPanel2.Size = New Size(200, 100)
-        TableLayoutPanel2.TabIndex = 0
-        ' 
         ' Label16
         ' 
         Label16.Dock = DockStyle.Fill
-        Label16.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label16.Location = New Point(103, 8)
+        Label16.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label16.Location = New Point(5, 377)
         Label16.Name = "Label16"
-        Label16.Size = New Size(41, 124)
-        Label16.TabIndex = 14
+        Label16.Size = New Size(124, 124)
+        Label16.TabIndex = 15
         Label16.Text = "c"
         Label16.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Label17
-        ' 
-        Label17.Dock = DockStyle.Fill
-        Label17.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label17.Location = New Point(54, 8)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(124, 124)
-        Label17.TabIndex = 13
-        Label17.Text = "c"
-        Label17.TextAlign = ContentAlignment.MiddleCenter
-        ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(532, 503)
         Controls.Add(TableLayoutPanel1)
         Name = "Form1"
         Text = "Form1"
         TableLayoutPanel1.ResumeLayout(False)
-        TableLayoutPanel2.ResumeLayout(False)
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label18 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label13 As Label
@@ -326,7 +282,5 @@ Partial Class Form1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Label16 As Label
-    Friend WithEvents Label17 As Label
 End Class
