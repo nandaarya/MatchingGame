@@ -23,25 +23,25 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         TableLayoutPanel1 = New TableLayoutPanel()
-        Label1 = New Label()
-        Label2 = New Label()
-        Label3 = New Label()
-        Label4 = New Label()
-        Label5 = New Label()
-        Label6 = New Label()
-        Label7 = New Label()
-        Label8 = New Label()
-        Label9 = New Label()
-        Label10 = New Label()
-        Label11 = New Label()
-        Label12 = New Label()
-        Label13 = New Label()
-        Label14 = New Label()
+        Label18 = New Label()
         Label15 = New Label()
+        Label14 = New Label()
+        Label13 = New Label()
+        Label12 = New Label()
+        Label11 = New Label()
+        Label10 = New Label()
+        Label9 = New Label()
+        Label8 = New Label()
+        Label7 = New Label()
+        Label6 = New Label()
+        Label5 = New Label()
+        Label4 = New Label()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
         TableLayoutPanel2 = New TableLayoutPanel()
         Label16 = New Label()
         Label17 = New Label()
-        Label18 = New Label()
         TableLayoutPanel1.SuspendLayout()
         TableLayoutPanel2.SuspendLayout()
         SuspendLayout()
@@ -82,148 +82,27 @@ Partial Class Form1
         TableLayoutPanel1.Size = New Size(532, 503)
         TableLayoutPanel1.TabIndex = 0
         ' 
-        ' Label1
+        ' Label18
         ' 
-        Label1.Dock = DockStyle.Fill
-        Label1.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.Location = New Point(5, 2)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(124, 123)
-        Label1.TabIndex = 0
-        Label1.Text = "c"
-        Label1.TextAlign = ContentAlignment.MiddleCenter
+        Label18.Dock = DockStyle.Fill
+        Label18.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.Location = New Point(401, 377)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(126, 124)
+        Label18.TabIndex = 15
+        Label18.Text = "c"
+        Label18.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Label2
+        ' Label15
         ' 
-        Label2.Dock = DockStyle.Fill
-        Label2.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label2.Location = New Point(137, 2)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(124, 123)
-        Label2.TabIndex = 1
-        Label2.Text = "c"
-        Label2.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label3
-        ' 
-        Label3.Dock = DockStyle.Fill
-        Label3.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label3.Location = New Point(269, 2)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(124, 123)
-        Label3.TabIndex = 2
-        Label3.Text = "c"
-        Label3.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label4
-        ' 
-        Label4.Dock = DockStyle.Fill
-        Label4.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label4.Location = New Point(401, 2)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(126, 123)
-        Label4.TabIndex = 3
-        Label4.Text = "c"
-        Label4.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label5
-        ' 
-        Label5.Dock = DockStyle.Fill
-        Label5.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(5, 127)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(124, 123)
-        Label5.TabIndex = 4
-        Label5.Text = "c"
-        Label5.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label6
-        ' 
-        Label6.Dock = DockStyle.Fill
-        Label6.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(137, 127)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(124, 123)
-        Label6.TabIndex = 5
-        Label6.Text = "c"
-        Label6.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label7
-        ' 
-        Label7.Dock = DockStyle.Fill
-        Label7.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label7.Location = New Point(269, 127)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(124, 123)
-        Label7.TabIndex = 6
-        Label7.Text = "c"
-        Label7.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label8
-        ' 
-        Label8.Dock = DockStyle.Fill
-        Label8.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label8.Location = New Point(401, 127)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(126, 123)
-        Label8.TabIndex = 7
-        Label8.Text = "c"
-        Label8.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label9
-        ' 
-        Label9.Dock = DockStyle.Fill
-        Label9.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label9.Location = New Point(5, 252)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(124, 123)
-        Label9.TabIndex = 8
-        Label9.Text = "c"
-        Label9.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label10
-        ' 
-        Label10.Dock = DockStyle.Fill
-        Label10.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label10.Location = New Point(137, 252)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(124, 123)
-        Label10.TabIndex = 9
-        Label10.Text = "c"
-        Label10.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label11
-        ' 
-        Label11.Dock = DockStyle.Fill
-        Label11.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label11.Location = New Point(269, 252)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(124, 123)
-        Label11.TabIndex = 10
-        Label11.Text = "c"
-        Label11.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label12
-        ' 
-        Label12.Dock = DockStyle.Fill
-        Label12.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label12.Location = New Point(401, 252)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(126, 123)
-        Label12.TabIndex = 11
-        Label12.Text = "c"
-        Label12.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label13
-        ' 
-        Label13.Dock = DockStyle.Fill
-        Label13.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(5, 377)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(124, 124)
-        Label13.TabIndex = 12
-        Label13.Text = "c"
-        Label13.TextAlign = ContentAlignment.MiddleCenter
+        Label15.Dock = DockStyle.Fill
+        Label15.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label15.Location = New Point(269, 377)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(124, 124)
+        Label15.TabIndex = 14
+        Label15.Text = "c"
+        Label15.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label14
         ' 
@@ -236,16 +115,148 @@ Partial Class Form1
         Label14.Text = "c"
         Label14.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Label15
+        ' Label13
         ' 
-        Label15.Dock = DockStyle.Fill
-        Label15.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label15.Location = New Point(269, 377)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(124, 124)
-        Label15.TabIndex = 14
-        Label15.Text = "c"
-        Label15.TextAlign = ContentAlignment.MiddleCenter
+        Label13.Dock = DockStyle.Fill
+        Label13.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label13.Location = New Point(5, 377)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(124, 124)
+        Label13.TabIndex = 12
+        Label13.Text = "c"
+        Label13.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label12
+        ' 
+        Label12.Dock = DockStyle.Fill
+        Label12.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label12.Location = New Point(401, 252)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(126, 123)
+        Label12.TabIndex = 11
+        Label12.Text = "c"
+        Label12.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label11
+        ' 
+        Label11.Dock = DockStyle.Fill
+        Label11.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label11.Location = New Point(269, 252)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(124, 123)
+        Label11.TabIndex = 10
+        Label11.Text = "c"
+        Label11.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label10
+        ' 
+        Label10.Dock = DockStyle.Fill
+        Label10.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.Location = New Point(137, 252)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(124, 123)
+        Label10.TabIndex = 9
+        Label10.Text = "c"
+        Label10.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label9
+        ' 
+        Label9.Dock = DockStyle.Fill
+        Label9.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label9.Location = New Point(5, 252)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(124, 123)
+        Label9.TabIndex = 8
+        Label9.Text = "c"
+        Label9.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label8
+        ' 
+        Label8.Dock = DockStyle.Fill
+        Label8.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label8.Location = New Point(401, 127)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(126, 123)
+        Label8.TabIndex = 7
+        Label8.Text = "c"
+        Label8.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label7
+        ' 
+        Label7.Dock = DockStyle.Fill
+        Label7.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Location = New Point(269, 127)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(124, 123)
+        Label7.TabIndex = 6
+        Label7.Text = "c"
+        Label7.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label6
+        ' 
+        Label6.Dock = DockStyle.Fill
+        Label6.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Location = New Point(137, 127)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(124, 123)
+        Label6.TabIndex = 5
+        Label6.Text = "c"
+        Label6.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label5
+        ' 
+        Label5.Dock = DockStyle.Fill
+        Label5.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.Location = New Point(5, 127)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(124, 123)
+        Label5.TabIndex = 4
+        Label5.Text = "c"
+        Label5.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label4
+        ' 
+        Label4.Dock = DockStyle.Fill
+        Label4.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.Location = New Point(401, 2)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(126, 123)
+        Label4.TabIndex = 3
+        Label4.Text = "c"
+        Label4.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label3
+        ' 
+        Label3.Dock = DockStyle.Fill
+        Label3.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Location = New Point(269, 2)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(124, 123)
+        Label3.TabIndex = 2
+        Label3.Text = "c"
+        Label3.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label2
+        ' 
+        Label2.Dock = DockStyle.Fill
+        Label2.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(137, 2)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(124, 123)
+        Label2.TabIndex = 1
+        Label2.Text = "c"
+        Label2.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Label1
+        ' 
+        Label1.Dock = DockStyle.Fill
+        Label1.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Location = New Point(5, 2)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(124, 123)
+        Label1.TabIndex = 0
+        Label1.Text = "c"
+        Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' TableLayoutPanel2
         ' 
@@ -284,17 +295,6 @@ Partial Class Form1
         Label17.TabIndex = 13
         Label17.Text = "c"
         Label17.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Label18
-        ' 
-        Label18.Dock = DockStyle.Fill
-        Label18.Font = New Font("Webdings", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(401, 377)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(126, 124)
-        Label18.TabIndex = 15
-        Label18.Text = "c"
-        Label18.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Form1
         ' 
