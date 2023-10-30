@@ -22,7 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         TableLayoutPanel1 = New TableLayoutPanel()
+        Label16 = New Label()
         Label15 = New Label()
         Label14 = New Label()
         Label13 = New Label()
@@ -38,7 +40,7 @@ Partial Class Form1
         Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
-        Label16 = New Label()
+        Timer1 = New Timer(components)
         TableLayoutPanel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -77,6 +79,17 @@ Partial Class Form1
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 25.0F))
         TableLayoutPanel1.Size = New Size(532, 503)
         TableLayoutPanel1.TabIndex = 0
+        ' 
+        ' Label16
+        ' 
+        Label16.Dock = DockStyle.Fill
+        Label16.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label16.Location = New Point(5, 377)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(124, 124)
+        Label16.TabIndex = 15
+        Label16.Text = "c"
+        Label16.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label15
         ' 
@@ -243,16 +256,9 @@ Partial Class Form1
         Label1.Text = "c"
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Label16
+        ' Timer1
         ' 
-        Label16.Dock = DockStyle.Fill
-        Label16.Font = New Font("Webdings", 48.0F, FontStyle.Bold, GraphicsUnit.Point)
-        Label16.Location = New Point(5, 377)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(124, 124)
-        Label16.TabIndex = 15
-        Label16.Text = "c"
-        Label16.TextAlign = ContentAlignment.MiddleCenter
+        Timer1.Interval = 750
         ' 
         ' Form1
         ' 
@@ -283,4 +289,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label16 As Label
+    Friend WithEvents Timer1 As Timer
 End Class

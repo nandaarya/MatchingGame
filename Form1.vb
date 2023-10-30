@@ -10,6 +10,15 @@
       New List(Of String) From {"!", "!", "N", "N", ",", ",", "k", "k",
                                 "b", "b", "v", "v", "w", "w", "z", "z"}
 
+    ' firstClicked points to the first Label control 
+    ' that the player clicks, but it will be Nothing 
+    ' if the player hasn't clicked a label yet
+    Private firstClicked As Label = Nothing
+
+    ' secondClicked points to the second Label control 
+    ' that the player clicks
+    Private secondClicked As Label = Nothing
+
     Private Sub AssignIconsToSquares()
 
         ' The TableLayoutPanel has 16 labels,
@@ -42,13 +51,51 @@
 
         If clickedLabel IsNot Nothing Then
 
-            ' If the clicked label is black, the player clicked 
-            ' an icon that's already been revealed -- 
+            ' If the clicked label is black, the player clicked
+            ' an icon that's already been revealed --
             ' ignore the click
             If clickedLabel.ForeColor = Color.Black Then Exit Sub
 
-            clickedLabel.ForeColor = Color.Black
+            ' If firstClicked is Nothing, this is the first icon 
+            ' in the pair that the player clicked, 
+            ' so set firstClicked to the label that the player
+            ' clicked, change its color to black, and return
+            If firstClicked Is Nothing Then
+                firstClicked = clickedLabel
+                firstClicked.ForeColor = Color.Black
+                Exit Sub
+            End If
+
+            ' If the player gets this far, the timer isn't 
+            ' running and firstClicked isn't Nothing, 
+            ' so this must be the second icon the player clicked
+            ' Set its color to black
+            secondClicked = clickedLabel
+            secondClicked.ForeColor = Color.Black
+
+            ' If the player gets this far, the player 
+            ' clicked two different icons, so start the 
+            ' timer (which will wait three quarters of 
+            ' a second, and then hide the icons)
+            Timer1.Start()
+
         End If
     End Sub
 
+    Private Sub Timer1_Tick() Handles Timer1.Tick
+
+        ' Stop the timer
+        Timer1.Stop()
+
+        ' Hide both icons
+        firstClicked.ForeColor = firstClicked.BackColor
+        secondClicked.ForeColor = secondClicked.BackColor
+
+        ' Reset firstClicked and secondClicked 
+        ' so the next time a label is
+        ' clicked, the program knows it's the first click
+        firstClicked = Nothing
+        secondClicked = Nothing
+
+    End Sub
 End Class
